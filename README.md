@@ -96,12 +96,3 @@ Python, XGBoost, LGBM, CatBoost, Scikit-Learn, Pandas, NumPy, Optuna, TargetEnco
 
 # 7. 관련 링크
 Kaggle 경진대회 페이지: [https://www.kaggle.com/competitions/playground-series-s5e2/overview]  
-
------------------------------------------------------------------
-
-# 8. 요약  
-주어진 데이터는 타겟에 대한 신호가 미약한 데이터였다  
-다양한 전처리 기법, 하이퍼파라미터 튜닝, 타겟 인코딩 실험을 수행하며 비교했다  
-타겟인코딩 + 앙상블 모델(XGBoost + LGBM + CatBoost + Ridge)이 최종 성능 최고 기록  
-총 20회 Kaggle 제출 → 최종 RMSE 38.90098 달성  
-최종 등수 = 456 / 3393 (상위 13.4%)
